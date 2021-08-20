@@ -1,0 +1,15 @@
+{
+  "name": "webfakename",
+  "version": "1.0.10",
+  "description": "",
+  "main": "name.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fingerprintjs/fingerprintjs": "^3.3.0",
+    "md5": "^2.3.0"
+  }
+}
