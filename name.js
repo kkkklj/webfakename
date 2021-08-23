@@ -38,5 +38,9 @@ const strToName = (sex,options) => {//0男1女
     })
 
 }
-
+try {
+    window.webfakename = strToName;
+} catch (error) {
+    console.warn(error);
+}
 module.exports = strToName

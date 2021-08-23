@@ -1,6 +1,6 @@
 {
   "name": "webfakename",
-  "version": "1.0.10",
+  "version": "1.0.14",
   "description": "",
   "main": "name.js",
   "scripts": {
@@ -11,5 +11,9 @@
   "dependencies": {
     "@fingerprintjs/fingerprintjs": "^3.3.0",
     "md5": "^2.3.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0"
   }
 }
